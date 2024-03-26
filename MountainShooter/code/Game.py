@@ -1,9 +1,6 @@
 #!/usr/bin/python
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 import pygame as pygame
-from pygame import Surface
-from pygame.font import Font
-from pygame.locals import Rect
 
 from code.Const import WIN_WIDTH, WIN_HEIGTH
 from code.Menu import Menu
@@ -14,10 +11,7 @@ class Game:
         pygame.init()
         self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGTH))
 
-    def run(self):
-
+    def run(self) -> object:
         while True:
             menu = Menu(self.window)
             menu.run()
-
-
