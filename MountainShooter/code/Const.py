@@ -1,2 +1,13 @@
+# C
+COLOR_ORANGE = (255, 128, 0)
+COLOR_WHITE =(255, 255, 255)
+
+# M2P
+MENU_OPTION = ('NEW GAME 1P',
+               'NEW GAME 2P - COOPERATIVE',
+               'NEW GAME 2P - COMPETITIVE',
+               'EXIT')
+# w
 WIN_WIDTH = 1000
 WIN_HEIGTH = 573
+
